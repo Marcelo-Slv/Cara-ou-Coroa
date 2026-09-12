@@ -1,0 +1,54 @@
+## .NET build artifacts
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+## Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.userprefs
+*.user
+
+## Rider / JetBrains
+.idea/
+*.pidb
+*.sln.iml
+
+## PowerShell
+*.psess
+*.psmsi
+*.tmp
+
+## OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+## Environment / secrets
+*.env
+appsettings.*.local.json
+
+## Test results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
