@@ -30,7 +30,7 @@ namespace CaraOuCoroa
 
                     ContadorDeVitorias++;
 
-                    ContadorVitorias.Text =  ContadorDeVitorias.ToString();
+                    ContadorVitorias.Text = "Total de vitorias: " + ContadorDeVitorias.ToString();
 
                     return;
 
@@ -41,7 +41,7 @@ namespace CaraOuCoroa
 
                     ContadorDeDerrotas++;
 
-                    ContaodeDerrotas.Text = ContadorDeDerrotas.ToString();
+                    ContaodeDerrotas.Text = "Total de derrotas: " + ContadorDeDerrotas.ToString();
 
                     return;
 
@@ -55,7 +55,7 @@ namespace CaraOuCoroa
 
                 ContadorDeVitorias++;
 
-                ContadorVitorias.Text = ContadorDeVitorias.ToString();
+                ContadorVitorias.Text = "Total de vitorias: " + ContadorDeVitorias.ToString();
 
                 return;
 
@@ -66,7 +66,7 @@ namespace CaraOuCoroa
 
                 ContadorDeDerrotas++;
 
-                ContaodeDerrotas.Text = ContadorDeDerrotas.ToString();
+                ContaodeDerrotas.Text = "Total de derrotas: " + ContadorDeDerrotas.ToString();
 
                 return;
 
